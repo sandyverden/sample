@@ -1,0 +1,6 @@
+version: "2"
+services:
+     calculator:
+          image: itpaytren/sample-jenkins
+          ports:
+               - 8080
