@@ -41,17 +41,3 @@ stage("Deploy to staging") {
 		 sh "docker-compose up -d"
      }
 }
-
-//stage("Acceptance test") {
-//   steps {
-//          sleep 60
-//          //sh "./acceptance_test_docker.sh"
-//     }
-//}
-//     }
-//	 post {
-//     always {
-//         sh "docker-compose down"
-//     }
-//}
-//}
